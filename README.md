@@ -15,6 +15,8 @@ This repo exists so Pronto agent design can cite stable source files without dep
 
 - [`source/`](source/) mirrors upstream documentation-related Markdown files using original paths.
 - [`catalog/`](catalog/) groups those files by how we read them for Pronto design.
+- [`usage/`](usage/) explains how to use this repo as a reference library while designing agents on top of pi.
+- [`skill-draft/`](skill-draft/) is a non-installable seed for a future skill. It captures the shape of a skill without claiming the lessons are stable yet.
 
 The `source/` folder intentionally preserves upstream paths. Do not edit files under `source/` by hand unless you are intentionally patching the imported snapshot.
 
@@ -25,6 +27,17 @@ The `source/` folder intentionally preserves upstream paths. Do not edit files u
 - [Examples and reusable patterns](catalog/examples-and-patterns.md)
 - [Upstream prompts and skills](catalog/upstream-prompts-and-skills.md)
 - [Validation fixtures and changelogs](catalog/validation-fixtures-and-changelogs.md)
+
+## How To Use This Repo
+
+Start with [usage/how-to-use-this-repo.md](usage/how-to-use-this-repo.md).
+
+Short version:
+
+- Use `source/` for exact upstream wording and line-level source checks.
+- Use `catalog/` when you know the topic but not the upstream file.
+- Use `usage/task-reading-matrix.md` when deciding which files to read for a specific design question.
+- Use `skill-draft/` only as a parking lot for future Pronto-on-pi lessons. It is not an installable skill yet.
 
 ## Update Procedure
 
