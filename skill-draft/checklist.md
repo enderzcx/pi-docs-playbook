@@ -1,6 +1,6 @@
 # Draft Checklist
 
-Use this checklist manually while designing Pronto-on-pi work. It is not binding yet.
+Use this checklist manually while designing pi-based agent application work. It is not binding yet.
 
 ## 1. Pick The Runtime Surface
 
@@ -19,13 +19,13 @@ Evidence to read:
 ## 2. Define The Truth Boundary
 
 - [ ] What is pi allowed to remember?
-- [ ] What must Pronto rehydrate from SQL/domain services?
-- [ ] What belongs in Pronto `EventLog`?
+- [ ] What must the application rehydrate from SQL/domain services?
+- [ ] What belongs in the application audit/event log?
 - [ ] What belongs only in pi session trace?
 
 Hard rule:
 
-Pi session JSONL explains agent behavior. Pronto EventLog proves business mutation.
+Pi session JSONL explains agent behavior. The application audit/event log proves business mutation.
 
 ## 3. Classify Tool Risk
 
@@ -42,7 +42,7 @@ For high-risk mutation:
 - [ ] permission policy
 - [ ] approval policy
 - [ ] transaction boundary
-- [ ] EventLog emission
+- [ ] audit/event-log emission
 - [ ] replay/golden trace
 
 ## 4. Check Pi Footguns
@@ -61,6 +61,6 @@ For high-risk mutation:
 - [ ] integration test
 - [ ] replay/golden trace
 - [ ] manual operator approval evidence
-- [ ] EventLog assertion
-- [ ] ProcessInstance assertion
+- [ ] audit/event-log assertion
+- [ ] workflow/process record assertion
 - [ ] session trace assertion

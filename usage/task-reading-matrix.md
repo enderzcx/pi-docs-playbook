@@ -1,8 +1,8 @@
 # Task Reading Matrix
 
-Use this matrix to decide which pi files to read for a specific Pronto-on-pi design question.
+Use this matrix to decide which pi files to read for a specific pi-based agent application design question.
 
-## Pronto Runtime Topology
+## Runtime Topology
 
 Read when deciding embedded SDK vs RPC vs CLI usage.
 
@@ -21,13 +21,13 @@ Optional:
 
 Use for:
 
-- Embedding pi in Pronto backend.
+- Embedding pi in an application backend.
 - Running pi as an isolated subprocess.
-- Designing a custom Pronto UI/client around pi.
+- Designing a custom UI/client around pi.
 
-## Pronto Tool Wrapper Design
+## Tool Wrapper Design
 
-Read when designing high-risk business tools such as inventory movement, order mutation, or confirmation actions.
+Read when designing high-risk domain tools such as inventory movement, order mutation, payment actions, or confirmation actions.
 
 Required:
 
@@ -44,7 +44,7 @@ Optional:
 
 Use for:
 
-- `buildProntoTool(...)`
+- app-specific tool wrapper design
 - approval gates
 - idempotency and validation boundaries
 - tool result rendering
@@ -52,7 +52,7 @@ Use for:
 
 ## Session, Process, And Audit Mapping
 
-Read when mapping pi sessions to Pronto `ProcessInstance`, `EventLog`, and replay.
+Read when mapping pi sessions to application workflow records, event logs, and replay.
 
 Required:
 
@@ -68,7 +68,7 @@ Optional:
 
 Use for:
 
-- pi session ID vs Pronto process ID.
+- pi session ID vs application process/workflow ID.
 - fork/clone/tree behavior.
 - replay and explainability.
 - distinguishing agent trace from business audit.
@@ -115,7 +115,7 @@ Use for:
 - CLI dialog behavior.
 - RPC extension UI protocol.
 - what degrades outside interactive TUI.
-- future Pronto operator console behavior.
+- future operator console behavior.
 
 ## Model And Provider Routing
 
@@ -141,7 +141,7 @@ Use for:
 
 ## Skills, Prompts, And Packaging
 
-Read when deciding whether Pronto should ship reusable instructions or installable pi packages.
+Read when deciding whether your project should ship reusable instructions or installable pi packages.
 
 Required:
 
@@ -157,7 +157,7 @@ Optional:
 
 Use for:
 
-- future Pronto-on-pi skill.
+- future pi-based agent development skill.
 - prompt template conventions.
 - package distribution.
 - skill validation edge cases.
@@ -204,4 +204,4 @@ Use for:
 
 - checking breaking changes.
 - refreshing the snapshot.
-- deciding whether a Pronto design claim is stale.
+- deciding whether a design claim is stale.

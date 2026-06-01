@@ -2,7 +2,7 @@
 
 Local Markdown mirror and reading map for [`earendil-works/pi`](https://github.com/earendil-works/pi).
 
-This repo exists so Pronto agent design can cite stable source files without depending on rendered `pi.dev` pages.
+This repo exists so agent application designers can cite stable pi source files without depending on rendered `pi.dev` pages.
 
 ## Source
 
@@ -14,7 +14,7 @@ This repo exists so Pronto agent design can cite stable source files without dep
 ## Layout
 
 - [`source/`](source/) mirrors upstream documentation-related Markdown files using original paths.
-- [`catalog/`](catalog/) groups those files by how we read them for Pronto design.
+- [`catalog/`](catalog/) groups those files by topic and development use case.
 - [`usage/`](usage/) explains how to use this repo as a reference library while designing agents on top of pi.
 - [`skill-draft/`](skill-draft/) is a non-installable seed for a future skill. It captures the shape of a skill without claiming the lessons are stable yet.
 
@@ -37,7 +37,7 @@ Short version:
 - Use `source/` for exact upstream wording and line-level source checks.
 - Use `catalog/` when you know the topic but not the upstream file.
 - Use `usage/task-reading-matrix.md` when deciding which files to read for a specific design question.
-- Use `skill-draft/` only as a parking lot for future Pronto-on-pi lessons. It is not an installable skill yet.
+- Use `skill-draft/` only as a parking lot for future pi-based agent development lessons. It is not an installable skill yet.
 
 ## Update Procedure
 
@@ -56,7 +56,7 @@ rsync -a --prune-empty-dirs \
 
 After updating, refresh this README commit hash and the catalog links if the upstream commit changes.
 
-## Pronto Reading Priority
+## Reading Priority For Agent App Development
 
 1. `source/packages/coding-agent/docs/extensions.md`
 2. `source/packages/coding-agent/docs/sdk.md`
@@ -68,4 +68,4 @@ After updating, refresh this README commit hash and the catalog links if the ups
 8. `source/packages/agent/docs/hooks.md`
 9. `source/packages/agent/docs/observability.md`
 
-Main design reminder: pi session JSONL is agent trace, not Pronto business audit truth.
+Main design reminder: pi session JSONL is agent trace, not your application's domain audit truth.
