@@ -1,0 +1,17 @@
+# Examples And Patterns
+
+- [Examples overview](../source/packages/coding-agent/examples/README.md)
+- [SDK examples README](../source/packages/coding-agent/examples/sdk/README.md)
+- [Extension examples README](../source/packages/coding-agent/examples/extensions/README.md)
+- [Plan Mode extension](../source/packages/coding-agent/examples/extensions/plan-mode/README.md)
+- [Subagent extension](../source/packages/coding-agent/examples/extensions/subagent/README.md)
+- [Subagent scout prompt](../source/packages/coding-agent/examples/extensions/subagent/agents/scout.md)
+- [Subagent planner prompt](../source/packages/coding-agent/examples/extensions/subagent/agents/planner.md)
+- [Subagent worker prompt](../source/packages/coding-agent/examples/extensions/subagent/agents/worker.md)
+- [Subagent reviewer prompt](../source/packages/coding-agent/examples/extensions/subagent/agents/reviewer.md)
+- [Workflow prompt: scout and plan](../source/packages/coding-agent/examples/extensions/subagent/prompts/scout-and-plan.md)
+- [Workflow prompt: implement](../source/packages/coding-agent/examples/extensions/subagent/prompts/implement.md)
+- [Workflow prompt: implement and review](../source/packages/coding-agent/examples/extensions/subagent/prompts/implement-and-review.md)
+- [DOOM overlay demo](../source/packages/coding-agent/examples/extensions/doom-overlay/README.md)
+- [Dynamic resources skill](../source/packages/coding-agent/examples/extensions/dynamic-resources/SKILL.md)
+- [Dynamic resources doc](../source/packages/coding-agent/examples/extensions/dynamic-resources/dynamic.md)
