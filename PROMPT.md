@@ -1,6 +1,6 @@
 # Prompt For Codex / Claude
 
-Copy this prompt when giving `pi-markdown` to a coding agent.
+Copy this prompt when giving `pi-docs-playbook` to a coding agent.
 
 ```md
 I am building an agent application on top of pi.

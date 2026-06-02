@@ -34,7 +34,7 @@ When this becomes a real skill, the user should provide:
 
 The future skill should produce:
 
-- source files read from `pi-markdown/source`
+- source files read from this repo's `source/`
 - application design boundary
 - required application-owned contracts
 - risks and footguns

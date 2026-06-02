@@ -1,4 +1,4 @@
-# pi-markdown
+# pi-docs-playbook
 
 Local Markdown mirror, documentation navigator, and agent-readable reading map for [`earendil-works/pi`](https://github.com/earendil-works/pi).
 
@@ -55,7 +55,7 @@ If you are an agent:
 
 ```bash
 git clone --depth 1 https://github.com/earendil-works/pi.git /tmp/pi-docs-read
-cd /Users/sunny/Work/CODEX/pi-markdown
+cd pi-docs-playbook
 rsync -a --prune-empty-dirs \
   --include='*/' \
   --include='*.md' \

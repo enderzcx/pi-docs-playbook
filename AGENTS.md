@@ -1,6 +1,6 @@
 # AGENTS.md
 
-You are using `pi-markdown`, a local documentation harness for [`earendil-works/pi`](https://github.com/earendil-works/pi).
+You are using `pi-docs-playbook`, a documentation harness for [`earendil-works/pi`](https://github.com/earendil-works/pi).
 
 Your job is not to guess how pi works. Your job is to read the relevant mirrored upstream docs, then answer with source-grounded guidance.
 
